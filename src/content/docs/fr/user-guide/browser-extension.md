@@ -1,9 +1,9 @@
 ---
-title: "Extensions pour navigateurs"
+title: "Extension Navigateur"
 description: "Accéder à vos prompts, vos favoris et vos espaces de travail directement depuis votre navigateur (Chrome, Edge, Firefox, Safari, Opera, Brave, Vivaldi)."
 ---
 
-Les extensions pour navigateurs de Power Prompt permettent aux collaborateurs d'accéder à l'intégralité de leur bibliothèque de prompts directement au cœur de leur flux de travail web quotidien, sans quitter leur onglet actif.
+L'extension navigateur de Power Prompt permet aux collaborateurs d'accéder à l'intégralité de leur bibliothèque de prompts directement au cœur de leur flux de travail web quotidien, sans quitter leur onglet actif.
 
 <div style="text-align: center; margin: 1.5rem 0;">
   <img src="/images/browser-extension-interface.jpg" alt="Interface de l'extension Power Prompt dans le navigateur" style="max-width: 320px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); display: inline-block;" />
@@ -13,7 +13,7 @@ Les extensions pour navigateurs de Power Prompt permettent aux collaborateurs d'
 
 ## 1. Un écosystème multi-navigateurs
 
-Power Prompt met à disposition des extensions natives pour l'ensemble des navigateurs majeurs du marché :
+Power Prompt met à disposition une extension compatible avec l'ensemble des navigateurs majeurs du marché :
 * **Google Chrome**
 * **Microsoft Edge**
 * **Mozilla Firefox**

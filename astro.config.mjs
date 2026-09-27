@@ -90,7 +90,7 @@ export default defineConfig({
             { label: 'Prompt Lab: Architect & Improver', translations: { fr: 'Prompt Lab : Architect & Improver' }, slug: 'user-guide/prompt-lab' },
             { label: 'Testing & Multi-Model Evaluation', translations: { fr: 'Test & évaluation multi-modèles' }, slug: 'user-guide/testing-and-evaluation' },
             { label: 'Collaboration & Comments', translations: { fr: 'Collaboration & commentaires' }, slug: 'user-guide/collaboration-and-comments' },
-            { label: 'Browser Extensions', translations: { fr: 'Extensions pour navigateurs' }, slug: 'user-guide/browser-extension' },
+            { label: 'Browser Extension', translations: { fr: 'Extension Navigateur' }, slug: 'user-guide/browser-extension' },
           ],
         },
         {

@@ -14,7 +14,7 @@ Power Prompt repose sur une architecture conteneurisée modulaire, conçue pour 
 
 ```mermaid
 graph TD
-    Users["Utilisateurs & Extensions Navigateurs"]
+    Users["Utilisateurs & Extension Navigateur"]
     Proxy["Reverse Proxy Nginx (Terminaison SSL / Port 443)"]
 
     Frontend["Frontend Web SPA (Port interne 3000)"]

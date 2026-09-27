@@ -14,7 +14,7 @@ Power Prompt features a decoupled, modular, and containerised architecture engin
 
 ```mermaid
 graph TD
-    Users["Users & Browser Extensions"]
+    Users["Users & Browser Extension"]
     Proxy["Enterprise Nginx Reverse Proxy (SSL / Port 443)"]
 
     Frontend["Frontend Web SPA (Internal Port 3000)"]

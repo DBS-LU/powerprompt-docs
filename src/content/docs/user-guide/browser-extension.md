@@ -1,9 +1,9 @@
 ---
-title: "Browser Extensions"
+title: "Browser Extension"
 description: "Access prompts, favorites, and team workspaces directly inside your web browser (Chrome, Edge, Firefox, Safari, Opera, Brave, Vivaldi)."
 ---
 
-Power Prompt browser extensions empower collaborators to access their complete organizational prompt library directly inside their daily web workflow, without navigating away from active tabs.
+The Power Prompt browser extension empowers collaborators to access their complete organizational prompt library directly inside their daily web workflow, without navigating away from active tabs.
 
 <div style="text-align: center; margin: 1.5rem 0;">
   <img src="/images/browser-extension-interface.jpg" alt="Power Prompt Browser Extension Interface" style="max-width: 320px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); display: inline-block;" />
@@ -13,7 +13,7 @@ Power Prompt browser extensions empower collaborators to access their complete o
 
 ## 1. Multi-Browser Ecosystem
 
-Power Prompt provides dedicated native extensions for all major enterprise browsers:
+Power Prompt provides a dedicated native extension compatible with all major enterprise browsers:
 * **Google Chrome**
 * **Microsoft Edge**
 * **Mozilla Firefox**
