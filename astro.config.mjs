@@ -5,7 +5,7 @@ export default defineConfig({
   site: 'https://doc.powerprompt.eu',
   integrations: [
     starlight({
-      title: 'Power Prompt Docs',
+      title: 'Power Prompt Documentation',
       logo: {
         src: './src/assets/logo-icon.png',
         replacesTitle: false,

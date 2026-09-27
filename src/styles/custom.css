@@ -114,3 +114,27 @@
 :root[data-theme='light'] .sl-markdown-content tbody tr:hover:not(:where(.not-content *)) {
 	background-color: #f1f5f9 !important;
 }
+
+/* ==========================================================================
+   Header brand & logo proportions
+   ========================================================================== */
+
+.site-title {
+	gap: 0.65rem !important;
+	align-items: center !important;
+}
+
+.site-title img {
+	height: 1.45rem !important; /* ~23px, balanced with font cap-height */
+	width: auto !important;
+	max-height: 1.45rem !important;
+	vertical-align: middle !important;
+}
+
+.site-title span {
+	font-size: 1.1rem !important;
+	font-weight: 600 !important;
+	letter-spacing: -0.01em !important;
+	white-space: nowrap !important;
+}
+
