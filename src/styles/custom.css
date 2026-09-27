@@ -1,0 +1,116 @@
+/* Custom CSS for Power Prompt Documentation Portal */
+
+/* ==========================================================================
+   Full-width central layout with comfortable fluid margins
+   ========================================================================== */
+
+/* Remove artificial max-width constraint on content container */
+.sl-container {
+	max-width: 100% !important;
+	margin-inline: 0 !important;
+}
+
+/* Add clean, balanced left and right padding to content panel */
+.content-panel {
+	padding: 1.5rem 2.5rem !important;
+}
+
+@media (max-width: 50rem) {
+	.content-panel {
+		padding: 1rem 1.25rem !important;
+	}
+}
+
+/* On large screens (with desktop sidebar and optional TOC) */
+@media (min-width: 72rem) {
+	/* Keep right sidebar TOC at a clean fixed width */
+	.right-sidebar-container {
+		width: var(--sl-sidebar-width) !important;
+		min-width: 18rem !important;
+		max-width: 20rem !important;
+	}
+
+	/* Allow main pane to take 100% of the central area between left sidebar and right TOC */
+	:global([data-has-sidebar][data-has-toc]) .main-pane {
+		width: calc(100% - var(--sl-sidebar-width)) !important;
+		--sl-content-margin-inline: 0 !important;
+	}
+
+	:global([data-has-sidebar]:not([data-has-toc])) .main-pane {
+		width: 100% !important;
+	}
+
+	.main-pane {
+		width: 100% !important;
+	}
+}
+
+/* ==========================================================================
+   Improved table typography and compact matrix layout
+   ========================================================================== */
+
+.sl-markdown-content table:not(:where(.not-content *)) {
+	width: 100% !important;
+	max-width: 100% !important;
+	display: table !important;
+	border-collapse: collapse !important;
+	font-size: 0.85rem !important;
+	line-height: 1.45 !important;
+	margin: 1.75rem 0 !important;
+	border: 1px solid var(--sl-color-gray-5) !important;
+	border-radius: 6px !important;
+	overflow: hidden !important;
+}
+
+.sl-markdown-content thead:not(:where(.not-content *)) {
+	background-color: var(--sl-color-gray-6) !important;
+	border-bottom: 2px solid var(--sl-color-gray-4) !important;
+}
+
+.sl-markdown-content th:not(:where(.not-content *)) {
+	padding: 0.65rem 0.75rem !important;
+	font-size: 0.82rem !important;
+	font-weight: 600 !important;
+	letter-spacing: 0.02em !important;
+	color: var(--sl-color-white) !important;
+	border: 1px solid var(--sl-color-gray-5) !important;
+	vertical-align: middle !important;
+}
+
+.sl-markdown-content td:not(:where(.not-content *)) {
+	padding: 0.55rem 0.75rem !important;
+	border: 1px solid var(--sl-color-gray-5) !important;
+	vertical-align: middle !important;
+}
+
+/* Subtle alternate zebra striping for enhanced table legibility */
+.sl-markdown-content tbody tr:nth-child(even):not(:where(.not-content *)) {
+	background-color: rgba(255, 255, 255, 0.02) !important;
+}
+
+.sl-markdown-content tbody tr:hover:not(:where(.not-content *)) {
+	background-color: rgba(255, 255, 255, 0.04) !important;
+}
+
+/* Light mode overrides for high-contrast tables */
+:root[data-theme='light'] .sl-markdown-content thead:not(:where(.not-content *)) {
+	background-color: #f1f5f9 !important;
+	border-bottom: 2px solid #cbd5e1 !important;
+}
+
+:root[data-theme='light'] .sl-markdown-content th:not(:where(.not-content *)) {
+	color: #0f172a !important;
+	border: 1px solid #e2e8f0 !important;
+}
+
+:root[data-theme='light'] .sl-markdown-content td:not(:where(.not-content *)) {
+	border: 1px solid #e2e8f0 !important;
+}
+
+:root[data-theme='light'] .sl-markdown-content tbody tr:nth-child(even):not(:where(.not-content *)) {
+	background-color: #f8fafc !important;
+}
+
+:root[data-theme='light'] .sl-markdown-content tbody tr:hover:not(:where(.not-content *)) {
+	background-color: #f1f5f9 !important;
+}
