@@ -17,6 +17,10 @@ hero:
       link: https://app.powerprompt.eu
       icon: external
       variant: minimal
+    - text: Official Website
+      link: https://powerprompt.eu/
+      icon: external
+      variant: minimal
 ---
 
 ## Documentation by Role

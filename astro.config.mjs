@@ -34,6 +34,18 @@ export default defineConfig({
             content: '#6366f1',
           },
         },
+        {
+          tag: 'script',
+          content: `
+            document.addEventListener('DOMContentLoaded', () => {
+              if (document.documentElement.lang && document.documentElement.lang.startsWith('fr')) {
+                document.querySelectorAll('a[href="https://powerprompt.eu/"]').forEach(el => {
+                  el.href = 'https://powerprompt.eu/fr';
+                });
+              }
+            });
+          `,
+        },
       ],
       defaultLocale: 'root',
       locales: {
@@ -128,6 +140,26 @@ export default defineConfig({
           items: [
             { label: 'Best Practices & Prompt Architecture', translations: { fr: 'Bonnes pratiques & structure de prompts' }, slug: 'references/best-practices' },
             { label: 'Glossary & Onboarding Checklists', translations: { fr: 'Glossaire & checklists de démarrage' }, slug: 'references/glossary-and-checklist' },
+          ],
+        },
+        {
+          label: 'Power Prompt Links',
+          translations: {
+            fr: 'Liens utiles',
+          },
+          items: [
+            {
+              label: 'Official Website',
+              translations: { fr: 'Site officiel' },
+              link: 'https://powerprompt.eu/',
+              attrs: { target: '_blank', rel: 'noopener noreferrer' },
+            },
+            {
+              label: 'Web Application',
+              translations: { fr: 'Application Web' },
+              link: 'https://app.powerprompt.eu',
+              attrs: { target: '_blank', rel: 'noopener noreferrer' },
+            },
           ],
         },
       ],
