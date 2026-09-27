@@ -59,6 +59,7 @@ export default defineConfig({
         },
       },
       social: {
+        github: 'https://github.com/DBS-LU/powerprompt-docs',
         linkedin: 'https://www.linkedin.com/company/power-prompt/home',
       },
       customCss: ['./src/styles/custom.css'],
